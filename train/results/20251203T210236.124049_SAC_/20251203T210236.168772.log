@@ -1,0 +1,2 @@
+21:02:47.789 [INFO] (off_policy_trainer_carla.py:497) Total Episode:     1 Steps:     128 Episode Steps:   128 Return: -1.0000 Success:  0.00, D: 0.00 FPS:11.02
+21:02:52.970 [INFO] (off_policy_trainer_carla.py:497) Total Episode:     2 Steps:     245 Episode Steps:   117 Return: -1.0000 Success:  0.00, D: 0.00 FPS:22.61

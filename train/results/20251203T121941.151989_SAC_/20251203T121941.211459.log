@@ -1,0 +1,6 @@
+12:19:53.315 [INFO] (off_policy_trainer_carla.py:497) Total Episode:     1 Steps:     123 Episode Steps:   123 Return: -1.0000 Success:  0.00, D: 0.00 FPS:10.16
+12:19:58.636 [INFO] (off_policy_trainer_carla.py:497) Total Episode:     2 Steps:     253 Episode Steps:   130 Return: -1.0000 Success:  0.00, D: 0.00 FPS:24.47
+12:20:07.162 [INFO] (off_policy_trainer_carla.py:497) Total Episode:     3 Steps:     458 Episode Steps:   205 Return:  1.0000 Success:  0.05, D: 0.00 FPS:24.06
+12:20:13.956 [INFO] (off_policy_trainer_carla.py:497) Total Episode:     4 Steps:     595 Episode Steps:   137 Return:  0.0000 Success:  0.05, D: 0.00 FPS:20.19
+12:20:22.094 [INFO] (off_policy_trainer_carla.py:497) Total Episode:     5 Steps:     739 Episode Steps:   144 Return: -1.0000 Success:  0.05, D: 0.00 FPS:17.70
+12:20:59.497 [INFO] (off_policy_trainer_carla.py:497) Total Episode:     6 Steps:    1041 Episode Steps:   302 Return:  0.0000 Success:  0.05, D: 0.00 FPS: 8.07

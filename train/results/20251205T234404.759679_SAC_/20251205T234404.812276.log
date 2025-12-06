@@ -1,0 +1,73 @@
+23:44:19.462 [INFO] (off_policy_trainer_carla.py:537) Total Episode:     1 Steps:     220 Episode Steps:   220 Return:  1.0000 Success:  0.05, D: 0.00 FPS:15.02
+23:44:27.649 [INFO] (off_policy_trainer_carla.py:537) Total Episode:     2 Steps:     522 Episode Steps:   302 Return:  0.0000 Success:  0.05, D: 0.00 FPS:36.91
+23:44:34.659 [INFO] (off_policy_trainer_carla.py:537) Total Episode:     3 Steps:     729 Episode Steps:   207 Return:  1.0000 Success:  0.10, D: 0.00 FPS:29.54
+23:44:39.919 [INFO] (off_policy_trainer_carla.py:537) Total Episode:     4 Steps:     850 Episode Steps:   121 Return: -1.0000 Success:  0.10, D: 0.00 FPS:23.02
+23:44:49.383 [INFO] (off_policy_trainer_carla.py:537) Total Episode:     5 Steps:    1062 Episode Steps:   212 Return:  1.0000 Success:  0.15, D: 0.00 FPS:22.41
+23:44:56.663 [INFO] (off_policy_trainer_carla.py:537) Total Episode:     6 Steps:    1198 Episode Steps:   136 Return:  0.0000 Success:  0.15, D: 0.00 FPS:18.69
+23:45:10.003 [INFO] (off_policy_trainer_carla.py:537) Total Episode:     7 Steps:    1435 Episode Steps:   237 Return:  1.0000 Success:  0.20, D: 0.00 FPS:17.77
+23:45:20.446 [INFO] (off_policy_trainer_carla.py:537) Total Episode:     8 Steps:    1600 Episode Steps:   165 Return: -1.0000 Success:  0.20, D: 0.00 FPS:15.81
+23:45:33.719 [INFO] (off_policy_trainer_carla.py:537) Total Episode:     9 Steps:    1798 Episode Steps:   198 Return:  1.0000 Success:  0.25, D: 0.00 FPS:14.92
+23:45:41.639 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    10 Steps:    1898 Episode Steps:   100 Return: -1.0000 Success:  0.25, D: 0.00 FPS:12.64
+23:45:53.240 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    11 Steps:    2042 Episode Steps:   144 Return: -1.0000 Success:  0.25, D: 0.00 FPS:12.42
+23:46:13.301 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    12 Steps:    2286 Episode Steps:   244 Return:  1.0000 Success:  0.30, D: 0.00 FPS:12.16
+23:46:25.337 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    13 Steps:    2415 Episode Steps:   129 Return: -1.0000 Success:  0.30, D: 0.00 FPS:10.72
+23:46:38.401 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    14 Steps:    2549 Episode Steps:   134 Return: -1.0000 Success:  0.30, D: 0.00 FPS:10.26
+23:46:51.246 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    15 Steps:    2671 Episode Steps:   122 Return: -1.0000 Success:  0.30, D: 0.00 FPS: 9.50
+23:47:02.032 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    16 Steps:    2766 Episode Steps:    95 Return: -1.0000 Success:  0.30, D: 0.00 FPS: 8.81
+23:47:14.463 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    17 Steps:    2871 Episode Steps:   105 Return: -1.0000 Success:  0.30, D: 0.00 FPS: 8.45
+23:47:38.635 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    18 Steps:    3074 Episode Steps:   203 Return:  1.0000 Success:  0.35, D: 0.00 FPS: 8.40
+23:48:09.260 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    19 Steps:    3323 Episode Steps:   249 Return:  1.0000 Success:  0.40, D: 0.00 FPS: 8.13
+23:48:38.510 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    20 Steps:    3549 Episode Steps:   226 Return:  1.0000 Success:  0.45, D: 0.00 FPS: 7.73
+23:49:19.190 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    21 Steps:    3851 Episode Steps:   302 Return:  0.0000 Success:  0.40, D: 0.00 FPS: 7.43
+23:49:37.688 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    22 Steps:    3978 Episode Steps:   127 Return: -1.0000 Success:  0.40, D: 0.00 FPS: 6.87
+23:49:57.185 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    23 Steps:    4108 Episode Steps:   130 Return: -1.0000 Success:  0.35, D: 0.00 FPS: 6.67
+23:50:32.028 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    24 Steps:    4342 Episode Steps:   234 Return:  1.0000 Success:  0.40, D: 0.00 FPS: 6.72
+23:50:51.188 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    25 Steps:    4461 Episode Steps:   119 Return: -1.0000 Success:  0.35, D: 0.00 FPS: 6.21
+23:51:39.276 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    26 Steps:    4763 Episode Steps:   302 Return:  0.0000 Success:  0.35, D: 0.00 FPS: 6.28
+23:52:14.438 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    27 Steps:    4973 Episode Steps:   210 Return:  1.0000 Success:  0.35, D: 0.00 FPS: 5.97
+23:53:53.336 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    28 Steps:    5161 Episode Steps:   188 Return:  1.0000 Success:  0.40, D: 0.00 FPS: 1.90
+23:54:27.341 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    29 Steps:    5298 Episode Steps:   137 Return: -1.0000 Success:  0.35, D: 0.00 FPS: 4.03
+23:55:05.972 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    30 Steps:    5452 Episode Steps:   154 Return:  0.0000 Success:  0.35, D: 0.00 FPS: 3.99
+23:56:20.870 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    31 Steps:    5754 Episode Steps:   302 Return:  0.0000 Success:  0.35, D: 0.00 FPS: 4.03
+23:56:54.107 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    32 Steps:    5880 Episode Steps:   126 Return: -1.0000 Success:  0.30, D: 0.00 FPS: 3.79
+23:57:34.281 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    33 Steps:    6031 Episode Steps:   151 Return:  0.0000 Success:  0.30, D: 0.00 FPS: 3.76
+23:58:29.247 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    34 Steps:    6235 Episode Steps:   204 Return:  1.0000 Success:  0.35, D: 0.00 FPS: 3.71
+23:59:21.606 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    35 Steps:    6425 Episode Steps:   190 Return:  1.0000 Success:  0.40, D: 0.00 FPS: 3.63
+00:00:23.604 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    36 Steps:    6648 Episode Steps:   223 Return:  1.0000 Success:  0.45, D: 0.00 FPS: 3.60
+00:01:26.047 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    37 Steps:    6868 Episode Steps:   220 Return:  1.0000 Success:  0.50, D: 0.00 FPS: 3.52
+00:02:52.555 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    38 Steps:    7170 Episode Steps:   302 Return:  0.0000 Success:  0.45, D: 0.00 FPS: 3.49
+00:03:42.118 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    39 Steps:    7336 Episode Steps:   166 Return:  1.0000 Success:  0.45, D: 0.00 FPS: 3.35
+00:04:20.753 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    40 Steps:    7462 Episode Steps:   126 Return: -1.0000 Success:  0.40, D: 0.00 FPS: 3.26
+00:05:23.545 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    41 Steps:    7666 Episode Steps:   204 Return:  1.0000 Success:  0.45, D: 0.00 FPS: 3.25
+00:06:57.506 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    42 Steps:    7968 Episode Steps:   302 Return:  0.0000 Success:  0.45, D: 0.00 FPS: 3.21
+00:08:05.835 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    43 Steps:    8182 Episode Steps:   214 Return:  1.0000 Success:  0.50, D: 0.00 FPS: 3.13
+00:09:10.794 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    44 Steps:    8381 Episode Steps:   199 Return:  1.0000 Success:  0.50, D: 0.00 FPS: 3.06
+00:09:55.451 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    45 Steps:    8514 Episode Steps:   133 Return: -1.0000 Success:  0.50, D: 0.00 FPS: 2.98
+00:10:37.853 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    46 Steps:    8639 Episode Steps:   125 Return: -1.0000 Success:  0.50, D: 0.00 FPS: 2.95
+00:11:25.326 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    47 Steps:    8775 Episode Steps:   136 Return: -1.0000 Success:  0.45, D: 0.00 FPS: 2.86
+00:13:13.575 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    48 Steps:    9077 Episode Steps:   302 Return:  0.0000 Success:  0.40, D: 0.00 FPS: 2.79
+00:14:20.776 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    49 Steps:    9263 Episode Steps:   186 Return:  1.0000 Success:  0.45, D: 0.00 FPS: 2.77
+00:15:07.526 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    50 Steps:    9391 Episode Steps:   128 Return: -1.0000 Success:  0.45, D: 0.00 FPS: 2.74
+00:15:49.067 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    51 Steps:    9501 Episode Steps:   110 Return: -1.0000 Success:  0.45, D: 0.00 FPS: 2.65
+00:16:28.897 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    52 Steps:    9603 Episode Steps:   102 Return: -1.0000 Success:  0.45, D: 0.00 FPS: 2.56
+00:17:47.750 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    53 Steps:    9809 Episode Steps:   206 Return:  1.0000 Success:  0.50, D: 0.00 FPS: 2.61
+00:19:23.026 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    54 Steps:   10058 Episode Steps:   249 Return:  1.0000 Success:  0.50, D: 0.00 FPS: 2.61
+00:20:32.561 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    55 Steps:   10237 Episode Steps:   179 Return:  0.0000 Success:  0.45, D: 0.00 FPS: 2.57
+00:21:14.980 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    56 Steps:   10343 Episode Steps:   106 Return: -1.0000 Success:  0.40, D: 0.00 FPS: 2.50
+00:22:41.791 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    57 Steps:   10559 Episode Steps:   216 Return:  1.0000 Success:  0.40, D: 0.00 FPS: 2.49
+00:24:03.007 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    58 Steps:   10760 Episode Steps:   201 Return:  1.0000 Success:  0.45, D: 0.00 FPS: 2.47
+00:24:59.427 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    59 Steps:   10888 Episode Steps:   128 Return: -1.0000 Success:  0.40, D: 0.00 FPS: 2.27
+00:25:51.031 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    60 Steps:   11008 Episode Steps:   120 Return: -1.0000 Success:  0.40, D: 0.00 FPS: 2.33
+00:26:40.458 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    61 Steps:   11124 Episode Steps:   116 Return: -1.0000 Success:  0.35, D: 0.00 FPS: 2.35
+00:27:35.721 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    62 Steps:   11253 Episode Steps:   129 Return: -1.0000 Success:  0.35, D: 0.00 FPS: 2.33
+00:29:45.291 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    63 Steps:   11555 Episode Steps:   302 Return:  0.0000 Success:  0.30, D: 0.00 FPS: 2.33
+00:31:18.163 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    64 Steps:   11768 Episode Steps:   213 Return:  0.0000 Success:  0.25, D: 0.00 FPS: 2.29
+00:32:15.581 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    65 Steps:   11891 Episode Steps:   123 Return: -1.0000 Success:  0.25, D: 0.00 FPS: 2.14
+00:33:51.094 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    66 Steps:   12099 Episode Steps:   208 Return:  1.0000 Success:  0.30, D: 0.00 FPS: 2.18
+00:35:01.836 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    67 Steps:   12245 Episode Steps:   146 Return: -1.0000 Success:  0.30, D: 0.00 FPS: 2.06
+00:36:26.716 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    68 Steps:   12423 Episode Steps:   178 Return:  1.0000 Success:  0.35, D: 0.00 FPS: 2.10
+00:37:23.008 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    69 Steps:   12538 Episode Steps:   115 Return: -1.0000 Success:  0.30, D: 0.00 FPS: 2.04
+00:39:48.669 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    70 Steps:   12840 Episode Steps:   302 Return:  0.0000 Success:  0.30, D: 0.00 FPS: 2.07
+00:42:15.321 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    71 Steps:   13142 Episode Steps:   302 Return:  0.0000 Success:  0.30, D: 0.00 FPS: 2.06
+00:42:59.359 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    72 Steps:   13231 Episode Steps:    89 Return: -1.0000 Success:  0.30, D: 0.00 FPS: 2.02
+00:45:29.517 [INFO] (off_policy_trainer_carla.py:537) Total Episode:    73 Steps:   13533 Episode Steps:   302 Return:  0.0000 Success:  0.25, D: 0.00 FPS: 2.01
