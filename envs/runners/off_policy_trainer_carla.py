@@ -94,9 +94,8 @@ class Trainer:
             args=args, user_specified_dir=self._logdir,
             suffix="{}_{}".format(self._policy.policy_name, args.dir_suffix))
 
-        self.logger = initialize_logger(
-            logging_level=logging.getLevelName(args.logging_level),
-            output_dir=self._output_dir)
+        self.logger = initialize_logger(logging_level=logging.getLevelName(args.logging_level),
+                                        output_dir=self._output_dir)
 
 
         # if evaluate the model
@@ -534,8 +533,19 @@ class Trainer:
                 self.step_log.append(int(total_steps))
                 self.train_success_rate.append(success)
 
-                self.logger.info("Total Episode: {0: 5} Steps: {1: 7} Episode Steps: {2: 5} Return: {3: 5.4f} Success: {4: 5.2f}, D:{5:5.2f} FPS:{6:5.2f}".format(
-                    n_episode, total_steps, episode_steps, episode_return,success,dis,fps))
+                self.logger.info("Total Episode: {0: 5} | " \
+                                "Steps: {1: 7} | " \
+                                "Episode Steps: {2: 5} | " \
+                                "Return: {3: 5.4f} | " \
+                                "Success: {4: 5.2f}| " \
+                                "D:{5:5.2f} |" \
+                                "FPS:{6:5.2f}".format(n_episode, 
+                                                      total_steps, 
+                                                      episode_steps, 
+                                                      episode_return,
+                                                      success,
+                                                      dis,
+                                                      fps))
                 
 
                 with self.tb_train.as_default():
@@ -564,9 +574,16 @@ class Trainer:
 
             if total_steps % self._policy.update_interval == 0:
                 samples = replay_buffer.sample(self._policy.batch_size)
+                if self.use_mask:
+                    m = samples["mask"]
+                else: 
+                    None
 
-                m = samples["mask"] if self.use_mask else None
-                nm = samples["next_mask"] if self.use_mask else None
+                if self.use_mask:
+                    nm = samples["next_mask"]
+                else: 
+                    None
+
                 h = samples["hidden"] if self.bptt_hidden>0 else None
                 nh = samples["next_hidden"] if self.bptt_hidden>0 else None
 
@@ -581,9 +598,12 @@ class Trainer:
                 f_s = samples['future_obs'] if self.pred_future_state else None
                 f_m = samples['future_map_state'] if self.pred_future_state and self.use_map else None
 
+                v_batch = samples.get("vision", None) 
+                vn_batch = samples.get("next_vision", None) 
+
                 if self.pred_future_state and self.sep_train:
                     simi_loss = self._policy.train_rep(state=samples["obs"], map_state=mp,
-                     future_state=f_s, future_map_state=f_m, future_action=f_a)
+                     future_state=f_s, future_map_state=f_m, future_action=f_a, vision=v_batch, next_vision=vn_batch)
                     if total_steps % 500==0:
                         print(f'similarity_loss:{np.mean(simi_loss)}')
                 

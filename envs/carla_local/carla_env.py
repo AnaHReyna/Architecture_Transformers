@@ -1,5 +1,5 @@
-# import pygame
-# import pygame.freetype
+import pygame
+import pygame.freetype
 import weakref
 import logging
 import time, random
@@ -128,15 +128,16 @@ class InterSection(object):
         """
 
         img = np.float32(im) / 255.0
-        img = cv2.resize(img, (160, 120))      # -> (120,160,3)
-        img = tf.convert_to_tensor(np.expand_dims(img, axis=0))  # -> (1,120,160,3)
+        img = cv2.resize(img, (self.im_width, self.im_height))         # (120,160,3)
+        img = tf.convert_to_tensor(np.expand_dims(img, axis=0))  #  (1,120,160,3)
 
-        cnn_applied = self.cnn_model(img, training=False)  # -> (1,280)
-        cnn_applied = np.squeeze(cnn_applied)  # -> (280,)
+        cnn_applied = self.cnn_model(img, training=False)         # (1,280)
+        cnn_applied = np.squeeze(cnn_applied)  #  (280,)
         # print("CNN embedding shape:", cnn_applied.shape)
 
         return cnn_applied
     
+
     def process_img(self, image):
         image.convert(carla.ColorConverter.CityScapesPalette)
         i = np.array(image.raw_data)
@@ -869,6 +870,9 @@ class InterSection(object):
             cmd.append(carla.command.DestroyActor(self.ego_vehicle))
         if getattr(self, "collision_sensor", None) is not None:
             cmd.append(carla.command.DestroyActor(self.collision_sensor))
+        if getattr(self, "sensor_seg", None) is not None:
+            cmd.append(carla.command.DestroyActor(self.sensor_seg))
+
 
         # veículos NPC criados (obs_list contém ids)
         if getattr(self, "obs_list", None):
